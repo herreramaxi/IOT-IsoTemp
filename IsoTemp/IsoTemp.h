@@ -11,7 +11,7 @@
 #define NAME_GAS_SENSOR "Gas"
 #define UNIT_TEMPERATURE "*C"
 #define UNIT_HUMIDITY "%"
-#define UNIT_GAS "?"
+#define UNIT_GAS "PPM"
 #define SPACE_TOKEN "\t\t"
 
 #define DELAY 2000
@@ -19,8 +19,8 @@
 #define DHTPIN 8
 
 //Descomentar DHTTYPE segun el sensor de temperatura que se utilice
-//#define DHTTYPE DHT11   // DHT 11
-#define DHTTYPE DHT22   // DHT 22  (AM2302)
+#define DHTTYPE DHT11   // DHT 11
+//#define DHTTYPE DHT22   // DHT 22  (AM2302)
 //#define DHTTYPE DHT21   // DHT 21 (AM2301)
 
 #if !defined(TEST)
